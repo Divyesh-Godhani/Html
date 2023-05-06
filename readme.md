@@ -28,3 +28,7 @@ _This content etalic_
 2. coffe
     1. black coffe
     2. white coffe 
+
+**Quotes:**
+
+> Learn to have Patience, things will come!
