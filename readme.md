@@ -14,3 +14,17 @@ Html is Hyper text markup language.
 ```
 <p> This is paragraph </p>
 ```
+# bold content
+**This Content is Bold**
+
+# Italic content
+_This content etalic_
+
+# order List
+
+1. Tea
+    1. black tea
+
+2. coffe
+    1. black coffe
+    2. white coffe 
