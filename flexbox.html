@@ -6,38 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Box</title>
     <style>
-        .container ul{
+        .container{
             display: flex;
-            /* flex-direction: row;
-            flex-wrap: wrap; */
-            flex-flow: row wrap;
-            justify-content: center;
-            /* align-items: center;
-            align-content: end; */
-            gap: 30px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-grow: 10px;
+            background-color: gray;
+            height: 600px;
+            border: 2px solid black;
+            border-radius: 5px;
+            gap: 15px 20px;
         }
-        .container ul li{
-            order: 3;
-            /* flex-grow: 4; */
-            flex-shrink: 2;
-            /* flex-basis: auto;
-            flex: none; */
+        .container div{
+            background-color: black;
+            color: #ffffff;
+            margin: 5px;
+            border: 1px solid red;
+            height: 50px;
+            width: 70px;
+            text-align: center;
+        }
+        .six{
             align-self: center;
-        }
-        .about{
-            /* align-self: center; */
-            margin-top: 20px;
+            /* flex-grow: 8; */
+            /* flex-shrink: 15; */
+            /* flex-basis: 150px; */
+            
         }
     </style>
 </head>
 <body>
    <div class="container">
-        <ul>
-            <li>Home</li>
-            <li class="about">About</li>
-            <li>Contact</li>
-            <li><button>Click here</button></li>
-        </ul>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div class="six">six</div>
+        <div>seven</div>
+        <div>eight</div>
+        <div>nine</div>
+        <div>ten</div>
+        <div>eleven</div>
+        <div>twel</div>
+        <div>thirteen</div>
+        <div>fourteen</div>
    </div>
     
 </body>
